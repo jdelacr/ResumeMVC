@@ -118,6 +118,7 @@
     <Content Include="Views\Home\Skills.cshtml" />
     <Content Include="Views\Home\Project.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
