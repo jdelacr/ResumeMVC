@@ -1,0 +1,48 @@
+﻿.v-progress-circular {
+    margin: 1rem;
+}
+
+.skill-html {
+    color: orange;
+}
+
+.skill-css {
+    color: blue;
+}
+
+.skill-js {
+    color: #FFC502;
+}
+
+.skill-jquery {
+    color: blue;
+}
+
+.skill-php {
+    color: blue;
+}
+
+.skill-vue {
+    color: green;
+}
+
+.skill-vuetify {
+    color: blue;
+}
+
+#app {
+    background-image: linear-gradient(329deg, rgb(8, 174, 234) 0%, rgb(42, 245, 152) 100%);
+}
+
+.weblink {
+    margin: 5px;
+}
+
+.RequireGMU {
+    color: red;
+    font-style: italic;
+}
+
+.container {
+    max-width: 1500px;
+}

@@ -13,5 +13,27 @@ namespace ResumeMVC.Controllers
         {
             return View();
         }
+
+        public ActionResult Experience()
+        {
+            return View();
+        }
+
+        public ActionResult Skills()
+        {
+            return View();
+        }
+
+        public ActionResult Project()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+
     }
 }

@@ -5,25 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link href="~/Content/ResumeCSS.css" rel="stylesheet" />
 
 </head>
 <body>
-    <div class="">
-        <div class="container">
-            <div class="">
-                <button>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div">
-                <ul>
-                </ul>
-            </div>
-        </div>
+    <div id="app">
+        <v-app>
+            <v-card tile>
+                <v-toolbar dark extended extended-height="40">
+                    <v-toolbar-title>
+                        <h2>
+                            IT 431: RÉSUMÉ
+                        </h2>
+                    </v-toolbar-title>
+                    <div class="flex-grow-1"></div>
+                    <v-toolbar-items class="hidden-sm-and-down">
+                        <v-btn text href="@Url.Action("Index", "Home")">
+                            <v-icon>mdi-account</v-icon> Information
+                        </v-btn>
+                        <v-btn text href="@Url.Action("Experience", "Home")">
+                            <v-icon>mdi-briefcase</v-icon> Experience
+                        </v-btn>
+                        <v-btn text href="@Url.Action("Skills", "Home")">
+                            <v-icon>mdi-star</v-icon> Skills
+                        </v-btn>
+                        <v-btn text href="@Url.Action("Project", "Home")">
+                            <v-icon>mdi-clipboard</v-icon> Projects
+                        </v-btn>
+                        <v-btn text href="@Url.Action("Contact", "Home")">
+                            <v-icon>mdi-account-plus</v-icon> Contacts
+                        </v-btn>
+                    </v-toolbar-items>
+
+                    <v-toolbar-items class="hidden-md-and-up">
+                        <v-menu>
+                            <template v-slot:activator="{on}">
+                                <v-app-bar-nav-icon v-on="on">
+                                </v-app-bar-nav-icon>
+                            </template>
+                            <v-card>
+                                <v-list nav dense>
+                                    <v-list-item v-on:click="" href="@Url.Action("Index", "Home")">
+                                        <v-icon>mdi-account</v-icon> Information
+                                    </v-list-item>
+                                    <v-list-item v-on:click="" href="@Url.Action("Experience", "Home")">
+                                        <v-icon>mdi-account</v-icon> Experience
+                                    </v-list-item>
+                                    <v-list-item v-on:click="" href="@Url.Action("Skills", "Home")">
+                                        <v-icon>mdi-account</v-icon> Skills
+                                    </v-list-item>
+                                    <v-list-item v-on:click="" href="@Url.Action("Project", "Home")">
+                                        <v-icon>mdi-account</v-icon> Projects
+                                    </v-list-item>
+                                    <v-list-item v-on:click="" href="@Url.Action("Contact", "Home")">
+                                        <v-icon>mdi-account</v-icon> Contacts
+                                    </v-list-item>
+                                </v-list>
+                            </v-card>
+                        </v-menu>
+                    </v-toolbar-items>
+                </v-toolbar>
+            </v-card>
+
+        <v-content>
+                @RenderBody()
+        </v-content>
+
+
+        </v-app>
     </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+            <script src="~/Scripts/Vuejs.js"></script>
 </body>
 </html>

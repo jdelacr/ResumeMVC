@@ -4,27 +4,124 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<v-container>
+    <v-row>
+        <v-col>
+            <v-card min-width="300" max-width="400" class="mx-auto">
+                <v-img class="white--text" src="~/Content/Images/0.jpeg" height="300px">
+                    <v-card-title class="align-end fill-height">Web Developer</v-card-title>
+                </v-img>
+                <v-card-text>
+                    <v-list-item two-line>
+                        <v-list-item-content>
+                            <v-list-item-title>Jan Justyn Dela Cruz</v-list-item-title>
+                            <v-list-item-subtitle>Name</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
 
+                    <v-list-item two-line>
+                        <v-list-item-content>
+                            <v-list-item-title>Manassas, Virginia</v-list-item-title>
+                            <v-list-item-subtitle>Location</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
 
-@using (Html.BeginForm()) 
-{
-    @Html.AntiForgeryToken()
-    
-    <div>
-        <h4>ResumeMVC</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div>
+                    <v-list-item>
+                        <v-list-item-content>
+                            <v-list-item-title>Contacts</v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-        </div>
-    </div>
-}
+                    <v-list-item two-line>
+                        <v-list-item-content>
+                            <v-list-item-title>(571)-426-0429</v-list-item-title>
+                            <v-list-item-subtitle>Phone</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
-
-<script src="~/Scripts/jquery-1.10.2.min.js"></script>
-<script src="~/Scripts/jquery.validate.min.js"></script>
-<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+                    <v-list-item two-line>
+                        <v-list-item-content>
+                            <v-list-item-title>jdelacr@gmu.edu</v-list-item-title>
+                            <v-list-item-subtitle>Email</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-card-text>
+            </v-card>
+        </v-col>
+        <v-col>
+            <v-card max-width="1000" min-width="300" width="900" class="mx-auto">
+                <v-card-title>
+                    <h3>
+                        INFORMATION
+                    </h3>
+                </v-card-title>
+                <v-divider></v-divider>
+                <v-card-text>
+                    <v-list-item>
+                        <v-list-item-content>
+                            <h4>
+                                NAME:
+                            </h4> JAN JUSTYN DELA CRUZ
+                        </v-list-item-content>
+                        <v-list-item-content>
+                            <h4>
+                                LOCATION:
+                            </h4> Manassas, Virginia
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                        <v-list-item-content>
+                            <h4>
+                                DATE OF BIRTH:
+                            </h4> May 18, 1995
+                        </v-list-item-content>
+                        <v-list-item-content>
+                            <h4>
+                                COLLEGE:
+                            </h4> George Mason University
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                        <v-list-item-content>
+                            <h4>
+                                NATIONALITY:
+                            </h4> Philippines
+                        </v-list-item-content>
+                        <v-list-item-content>
+                            <h4>
+                                CURRENT STATUS:
+                            </h4> Senior Undergraduate
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                        <v-list-item-content>
+                            <h4>
+                                LANGUAGES:
+                            </h4> English, Tagalog
+                        </v-list-item-content>
+                        <v-list-item-content>
+                            <h4>
+                                EXPECTED GRADUATION:
+                            </h4> 2020
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-card-text>
+                <v-card-title>
+                    <h3>
+                        ABOUT ME
+                    </h3>
+                </v-card-title>
+                <v-divider></v-divider>
+                <v-card-text>
+                    Hi my name is Jan Justyn Dela Cruz. You can call me Justyn for short. I was
+                    born from the Philippines and I moved to the U.S. in 2006. I received my high school
+                    diploma in 2013 at Manassas Park High School in 2013. I also recieved my associates
+                    degree in Northern Virginia in 2017. I am currently a Senior at George Mason University
+                    for my degree of Information Technology with a concentration of Web Developer. I am
+                    expected to graduate in 2020 of Spring.
+                </v-card-text>
+            </v-card>
+        </v-col>
+    </v-row>
+</v-container>
