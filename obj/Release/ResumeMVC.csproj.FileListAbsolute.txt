@@ -66,3 +66,4 @@ C:\Users\Administrator\Documents\IT 431\Week 3\ResumeMVC\ResumeMVC\obj\Release\R
 C:\Users\Administrator\Documents\IT 431\Week 3\ResumeMVC\ResumeMVC\obj\Release\ResumeMVC.csproj.CopyComplete
 C:\Users\Administrator\Documents\IT 431\Week 3\ResumeMVC\ResumeMVC\obj\Release\ResumeMVC.dll
 C:\Users\Administrator\Documents\IT 431\Week 3\ResumeMVC\ResumeMVC\obj\Release\ResumeMVC.pdb
+C:\Users\Administrator\Documents\IT 431\Week 3\ResumeMVC\ResumeMVC\obj\Release\ResumeMVC.csprojAssemblyReference.cache

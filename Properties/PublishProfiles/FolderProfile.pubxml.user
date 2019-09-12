@@ -16,10 +16,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/ResumeMVC.dll">
-      <publishTime>09/11/2019 19:02:55</publishTime>
+      <publishTime>09/12/2019 20:00:53</publishTime>
     </File>
     <File Include="bin/ResumeMVC.pdb">
-      <publishTime>09/11/2019 19:02:55</publishTime>
+      <publishTime>09/12/2019 20:00:53</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -222,8 +222,26 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/Skills.cshtml">
       <publishTime>09/11/2019 18:47:26</publishTime>
     </File>
+    <File Include="Views/Resume/Contact.cshtml">
+      <publishTime>09/11/2019 18:46:37</publishTime>
+    </File>
+    <File Include="Views/Resume/Education.cshtml">
+      <publishTime>09/12/2019 19:57:05</publishTime>
+    </File>
+    <File Include="Views/Resume/Experience.cshtml">
+      <publishTime>09/11/2019 18:17:47</publishTime>
+    </File>
+    <File Include="Views/Resume/Index.cshtml">
+      <publishTime>09/11/2019 18:55:39</publishTime>
+    </File>
+    <File Include="Views/Resume/Project.cshtml">
+      <publishTime>09/11/2019 18:45:59</publishTime>
+    </File>
+    <File Include="Views/Resume/Skills.cshtml">
+      <publishTime>09/11/2019 18:47:26</publishTime>
+    </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/11/2019 18:56:36</publishTime>
+      <publishTime>09/12/2019 20:00:00</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>09/11/2019 17:26:58</publishTime>

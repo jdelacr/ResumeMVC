@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ResumeMVC.Controllers
 {
-    public class HomeController : Controller
+    public class ResumeController : Controller
     {
         // GET: Home
         public ActionResult Index()
@@ -30,6 +30,10 @@ namespace ResumeMVC.Controllers
         }
 
         public ActionResult Contact()
+        {
+            return View();
+        }
+        public ActionResult Education()
         {
             return View();
         }
